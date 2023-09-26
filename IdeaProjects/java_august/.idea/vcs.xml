@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/Pragra_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pragra-git" vcs="Git" />
   </component>
 </project>
