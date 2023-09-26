@@ -3,8 +3,8 @@ package september16;
 public class CalculatorPrgm {
 
     public static void main(String[] args) {
-        double num1 = 10.0;
-        double num2 = 5.0;
+        int num1 = 10;
+        int num2 = 5;
         char operator = '*';
 
         double result;
