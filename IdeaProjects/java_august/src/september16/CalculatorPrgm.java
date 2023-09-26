@@ -5,26 +5,23 @@ public class CalculatorPrgm {
     public static void main(String[] args) {
         double num1 = 10.0;
         double num2 = 5.0;
-        char operator = '*';
+        char operator = '/';
 
         double result;
 
         if (operator == '+') {
             result = num1 + num2;
-            System.out.println("Result: " + result);
+            System.out.println("Additon of two nuumber is : " + result);
         } else if (operator == '-') {
             result = num1 - num2;
-            System.out.println("Result: " + result);
+            System.out.println("Subtraction of two nuumber is : " + result);
         } else if (operator == '*') {
             result = num1 * num2;
-            System.out.println("Result: " + result);
+            System.out.println("Multiplication of two nuumber is : " + result);
         } else if (operator == '/') {
-            if (num2 != 0) {
-                result = num1 / num2;
-                System.out.println("Result: " + result);
-            } else {
-                System.out.println("Error! Division by zero.");
-            }
+
+            result = num1 / num2;
+            System.out.println("Result: " + result);
         } else {
             System.out.println("Error! Invalid operator.");
         }
