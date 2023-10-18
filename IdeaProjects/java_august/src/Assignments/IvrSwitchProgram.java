@@ -77,6 +77,13 @@ public class IvrSwitchProgram {
             exitChoice = scanner.nextLine().charAt(0);
         } while (exitChoice != 'n' && exitChoice != 'N');
         }
+
+        public int addition(int a,int b,int c){
+        int sum;
+        sum=a+b+c;
+        return sum;
+        }
+
     }
 
 
