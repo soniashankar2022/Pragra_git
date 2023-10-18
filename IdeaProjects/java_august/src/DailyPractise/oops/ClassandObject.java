@@ -1,4 +1,4 @@
-package oops;
+package DailyPractise.oops;
  class lamp{
       //fields and variable
         boolean isOn;

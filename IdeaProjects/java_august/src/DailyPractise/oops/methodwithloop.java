@@ -1,4 +1,4 @@
-package oops;
+package DailyPractise.oops;
  class methodwithloop {
 
   public static int square(int a){

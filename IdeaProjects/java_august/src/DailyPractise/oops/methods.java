@@ -1,4 +1,4 @@
-package oops;
+package DailyPractise.oops;
  class methods {
      public int addnumbers(int a,int b){
          int sum=a+b;

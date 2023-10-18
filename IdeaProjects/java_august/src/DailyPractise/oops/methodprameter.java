@@ -1,4 +1,4 @@
-package oops;
+package DailyPractise.oops;
  class methodprameter {
 
      //method with no parameter
