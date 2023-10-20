@@ -15,3 +15,4 @@ public class Recursion {
         }
     }
 }
+//recursion is a method called initself
