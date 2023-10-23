@@ -1,4 +1,4 @@
-package DailyPractise.oops;
+package dailypractise.oops;
 
 class methodreturntype {
     public static int square(int num) {

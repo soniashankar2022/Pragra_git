@@ -1,4 +1,4 @@
-package DailyPractise.oops;
+package dailypractise.oops;
 
 class OverloadingNoOfParameter {
     public static void sum(int a) {

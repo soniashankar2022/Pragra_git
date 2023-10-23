@@ -1,4 +1,4 @@
-package DailyPractise.String;
+package String;
 
 public class Stringconcat {
     public static void main(String []args){

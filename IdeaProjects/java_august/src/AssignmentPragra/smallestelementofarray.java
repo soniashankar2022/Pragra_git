@@ -1,4 +1,4 @@
-package DailyPractise;
+package AssignmentPragra;
 
 import java.util.Scanner;
 

@@ -1,6 +1,4 @@
-package Assignments1;
-
-import org.w3c.dom.ls.LSOutput;
+package AssignmentPragra.Assignments1;
 
 import java.util.Scanner;
 

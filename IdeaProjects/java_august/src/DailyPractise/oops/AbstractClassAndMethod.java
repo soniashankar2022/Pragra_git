@@ -1,4 +1,4 @@
-package DailyPractise.oops;
+package dailypractise.oops;
 
 public class AbstractClassAndMethod {
     abstract class Animal {

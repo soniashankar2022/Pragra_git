@@ -1,4 +1,4 @@
-package Assignments1;
+package AssignmentPragra.Assignments1;
 
 //Write a Java program that displays the sum of n odd natural numbers.
 

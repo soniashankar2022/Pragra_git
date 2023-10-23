@@ -1,6 +1,5 @@
-package Assignments1;
+package AssignmentPragra.Assignments1;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 //Write a Java program that takes three numbers from the user and prints the greatest number.

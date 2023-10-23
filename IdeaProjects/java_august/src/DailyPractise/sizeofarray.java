@@ -1,4 +1,4 @@
-package DailyPractise;
+package dailypractise;
 
 import java.util.Scanner;
 

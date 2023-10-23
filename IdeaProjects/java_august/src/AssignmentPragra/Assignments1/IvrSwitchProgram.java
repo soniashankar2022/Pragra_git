@@ -1,4 +1,4 @@
-package Assignments1;
+package AssignmentPragra.Assignments1;
 
 import java.util.Scanner;
 

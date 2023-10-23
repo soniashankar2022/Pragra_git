@@ -1,4 +1,4 @@
-package DailyPractise.oops;
+package dailypractise.oops;
 
 class OverloadingByDataTypes {
     private static void display(int a) {
