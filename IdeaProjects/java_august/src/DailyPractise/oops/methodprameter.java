@@ -1,19 +1,21 @@
 package DailyPractise.oops;
- class methodprameter {
 
-     //method with no parameter
-     public void display(){
-         System.out.println("here the method is having no parameter");
+class methodprameter {
 
-     }
-     public void display1(int a){
-         System.out.println("here the method is havinf a single parameter"  +   a);
-     }
+    //method with no parameter
+    public void display() {
+        System.out.println("here the method is having no parameter");
 
-     public static void main(String args[]){
-         methodprameter object =new methodprameter();
-         object.display();
-         object.display1(10);
+    }
 
-     }
- }
+    public void display1(int a) {
+        System.out.println("here the method is havinf a single parameter" + a);
+    }
+
+    public static void main(String args[]) {
+        methodprameter object = new methodprameter();
+        object.display();
+        object.display1(10);
+
+    }
+}

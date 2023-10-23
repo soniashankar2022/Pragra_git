@@ -18,7 +18,7 @@ public class AbstractClassAndMethod {
     }
 
     class Main {
-        public  void main(String[] args) {
+        public void main(String[] args) {
 
             // create an object of Dog class
             Dog d1 = new Dog();

@@ -16,7 +16,7 @@ public class SumAndAverage {
 
 
             }
-            double avg=(double)sum/a;
+            double avg=(double) sum/a;
         System.out.println("the sum is"+ sum);
             System.out.println("the avg is"+ avg);
         }

@@ -24,9 +24,9 @@ public class VowelorConstant {
             } else {
                 System.out.println(s + " is a constant .");
             }
-        }else {
-                System.out.println("the entered value is not a alphabet");
-            }
-
+        } else {
+            System.out.println("the entered value is not a alphabet");
         }
+
     }
+}

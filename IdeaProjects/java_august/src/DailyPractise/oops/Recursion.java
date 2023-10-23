@@ -2,13 +2,14 @@ package DailyPractise.oops;
 
 public class Recursion {
 
-    public static void main(String[]args){
+    public static void main(String[] args) {
         sayhi(5);
     }
-    static void sayhi(int n){
-        if(n==0){
+
+    static void sayhi(int n) {
+        if (n == 0) {
             System.out.println("stop");
-        }else {
+        } else {
             System.out.println("HI");
             n--;
             sayhi(n);

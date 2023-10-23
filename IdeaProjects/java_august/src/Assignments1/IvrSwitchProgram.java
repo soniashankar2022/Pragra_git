@@ -3,6 +3,8 @@ package Assignments1;
 import java.util.Scanner;
 
 public class IvrSwitchProgram {
+    private static int serviceChoice;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         char exitChoice;
@@ -15,7 +17,7 @@ public class IvrSwitchProgram {
         int languageChoice = scanner.nextInt();
         scanner.nextLine();
 
-        do{
+        do {
             if (languageChoice == 1) {
                 System.out.println("You selected English.");
                 System.out.println("Press 1 for Internet");
@@ -73,18 +75,19 @@ public class IvrSwitchProgram {
                     System.out.println("Invalid service choice.");
                 }
 
-            } System.out.println("Do you want to continue? (y/n)");
+            }
+            System.out.println("Do you want to continue? (y/n)");
             exitChoice = scanner.nextLine().charAt(0);
         } while (exitChoice != 'n' && exitChoice != 'N');
-        }
-
-        public int addition(int a,int b,int c){
-        int sum;
-        sum=a+b+c;
-        return sum;
-        }
-
     }
+
+    public int addition(int a, int b, int c) {
+        int sum;
+        sum = a + b + c;
+        return sum;
+    }
+
+}
 
 
 
