@@ -1,4 +1,4 @@
-package AssignmentPragra.Assignment4OOPS;
+package AssignmentPragra.Assignment4OOPS.ProblemStatement1;
 
 public interface Animal {
     void Feed();
