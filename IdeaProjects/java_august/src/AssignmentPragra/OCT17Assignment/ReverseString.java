@@ -1,8 +1,9 @@
 package AssignmentPragra.OCT17Assignment;
 
+
 public class ReverseString {
     public static void main(String[] args) {
-        String str="I am computer programmer";
+        String str="Sonia jayashankar";
 
         //we are now converting the string into string array
         String a[]=str.split(" ");
