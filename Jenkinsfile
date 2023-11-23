@@ -2,9 +2,20 @@ pipeline {
   agent any
   stages {
     stage('hi') {
-      steps {
-        echo 'hbhjk'
-        archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
+      parallel {
+        stage('hi') {
+          steps {
+            echo 'hbhjk'
+            archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
+          }
+        }
+
+        stage('') {
+          steps {
+            echo 'i'
+          }
+        }
+
       }
     }
 
