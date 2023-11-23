@@ -4,6 +4,7 @@ pipeline {
     stage('hi') {
       steps {
         echo 'hbhjk'
+        archiveArtifacts(artifacts: 'target/*.jar', fingerprint: true)
       }
     }
 
