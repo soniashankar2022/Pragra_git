@@ -12,8 +12,8 @@ public class StaticDropDown {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
-      WebElement staticdropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
-        Select dropdown=new Select(staticdropdown);
+        WebElement staticdropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
+        Select dropdown = new Select(staticdropdown);
         dropdown.selectByIndex(2);
         System.out.println(dropdown.getFirstSelectedOption().getText());
         dropdown.selectByVisibleText("AED");

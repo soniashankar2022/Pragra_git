@@ -15,9 +15,9 @@ public class AutusuggestiveDropdown {
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
         driver.findElement(By.xpath("//input[@id='autosuggest']")).sendKeys("so");
         Thread.sleep(3000);
-        List<WebElement> options= driver.findElements(By.xpath("//li[@class='ui-menu-item'] /a"));
-        for(WebElement option:options){
-            if(option.getText().equalsIgnoreCase("South Africa")){
+        List<WebElement> options = driver.findElements(By.xpath("//li[@class='ui-menu-item'] /a"));
+        for (WebElement option : options) {
+            if (option.getText().equalsIgnoreCase("South Africa")) {
                 option.click();
                 break;
             }

@@ -10,18 +10,18 @@ import java.util.List;
 public class Assignment1checkbox {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-       // Assert.assertFalse(driver.findElement(By.id("input#checkBoxOption1")).isSelected());
+        // Assert.assertFalse(driver.findElement(By.id("input#checkBoxOption1")).isSelected());
         driver.findElement(By.xpath("//input[@value='option1']")).click();
         Assert.assertTrue(driver.findElement(By.xpath("//input[@value='option1']")).isSelected());
         driver.findElement(By.xpath("//input[@value='option1']")).click();
-         Assert.assertFalse(driver.findElement(By.xpath("//input[@value='option1']")).isSelected());
+        Assert.assertFalse(driver.findElement(By.xpath("//input[@value='option1']")).isSelected());
 
-        List<WebElement> checkboxes= driver.findElements(By.xpath("//input[@type='checkbox']"));
+        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
 
-        int total=checkboxes.size();
+        int total = checkboxes.size();
 
-        System.out.println("total is "  +   total);
+        System.out.println("total is " + total);
     }
 }

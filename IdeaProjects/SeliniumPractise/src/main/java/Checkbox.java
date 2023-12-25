@@ -9,7 +9,7 @@ public class Checkbox {
     public static void main(String[] args) {
         // Setup WebDriver
         WebDriverManager.chromedriver().setup();
-        WebDriver driver =new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
@@ -20,13 +20,13 @@ public class Checkbox {
 
         driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
 
-       // System.out.println(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        // System.out.println(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 
         Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 
 
     }
 
-    }
+}
 
 

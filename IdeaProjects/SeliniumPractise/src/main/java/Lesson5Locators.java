@@ -19,11 +19,11 @@ public class Lesson5Locators {
         driver.findElement(By.id("inputUsername")).sendKeys("sonia");
         driver.findElement(By.name("inputPassword")).sendKeys("Zomato@247");
         driver.findElement(By.className("submit")).click();
-       // Thread.sleep(1000);
-    System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
-    driver.findElement(By.linkText("Forgot your password?")).click();
-    driver.findElement(By.xpath("//input[@type='text'][1]")).sendKeys("Sonia");
-    driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("sonia@gmail.com");
+        // Thread.sleep(1000);
+        System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
+        driver.findElement(By.linkText("Forgot your password?")).click();
+        driver.findElement(By.xpath("//input[@type='text'][1]")).sendKeys("Sonia");
+        driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("sonia@gmail.com");
         driver.findElement(By.xpath("//input[@type='text'][2]")).clear();
         driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("Soniasonia@gmail.com");
         driver.findElement(By.xpath("//form/input[3]")).sendKeys("123456789");
@@ -39,7 +39,6 @@ public class Lesson5Locators {
 
 
     }
-
 
 
 }

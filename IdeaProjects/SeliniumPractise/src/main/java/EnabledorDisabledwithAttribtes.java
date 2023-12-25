@@ -7,26 +7,20 @@ import org.testng.Assert;
 public class EnabledorDisabledwithAttribtes {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
         driver.manage().window().maximize();
         //System.out.println(driver.findElement(By.name("ctl00$mainContent$view_date2")).isEnabled());
-        System.out.println( driver.findElement(By.id("Div1")).getAttribute("style"));
+        System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
         driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
-        System.out.println( driver.findElement(By.id("Div1")).getAttribute("style"));
-        if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1"))
-
-        {
+        System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
+        if (driver.findElement(By.id("Div1")).getAttribute("style").contains("1")) {
 
             System.out.println("its enabled");
 
             Assert.assertTrue(true);
 
-        }
-
-        else
-
-        {
+        } else {
 
             Assert.assertTrue(false);
 

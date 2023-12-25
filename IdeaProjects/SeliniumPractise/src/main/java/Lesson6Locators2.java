@@ -11,8 +11,8 @@ public class Lesson6Locators2 {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-System.out.println(driver.findElement(By.xpath("//header/div/button/following-sibling::button[1]")).getText());
+        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+        System.out.println(driver.findElement(By.xpath("//header/div/button/following-sibling::button[1]")).getText());
         System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/parent::header/a/following-sibling::div/button[2]")).getText());
 
     }
