@@ -17,9 +17,7 @@ public class Assignment1checkbox {
         Assert.assertTrue(driver.findElement(By.xpath("//input[@value='option1']")).isSelected());
         driver.findElement(By.xpath("//input[@value='option1']")).click();
         Assert.assertFalse(driver.findElement(By.xpath("//input[@value='option1']")).isSelected());
-
         List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
-
         int total = checkboxes.size();
 
         System.out.println("total is " + total);
